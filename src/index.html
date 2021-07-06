@@ -13,7 +13,7 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form
-    action=""
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     method="POST"
     onsubmit="onSubmit()">
       <fieldset class="field">
@@ -63,10 +63,11 @@
         <div>
           <label for="terms">I accept the term of the agreement</label>
           <input
-          type="checkbox"
-          name="terms"
-          id="terms"
-          required>
+            type="checkbox"
+            name="terms"
+            id="terms"
+            required
+          >
         </div>
       </fieldset>
       <fieldset class="field">
@@ -99,65 +100,70 @@
           Do you love cats?
           <label for="cats">
             <input
-            type="radio"
-            name="cats"
-            id="cats"
-            value="y"
-            required>
+              type="radio"
+              name="cats"
+              id="cats"
+              value="y"
+              required
+            >
             Yes
           </label>
           <label for="cat">
             <input
-            type="radio"
-            name="cats"
-            value="n"
-            id="cat"
-            required>
+              type="radio"
+              name="cats"
+              value="n"
+              id="cat"
+              required
+            >
             No
           </label>
         </div>
         <div>
           <label for="color">What is your favorite color?</label>
           <input
-          type="color"
-          name="color"
-          id="color"
-          required>
+            type="color"
+            name="color"
+            id="color"
+            required
+          >
         </div>
         <div>
           <label for="bed">What time do you go to bed?</label>
           <input
-          type="time"
-          name="bed"
-          id="bed"
-          required
-          step="1"
-          max="100"
-          min="0">
+            type="time"
+            name="bed"
+            id="bed"
+            required
+            step="1"
+            max="100"
+            min="0"
+          >
         </div>
         <div>
           <label for="car">
             What are your favorite brand of cars?
             <select
-            name="car"
-            id="car"
-            required
-            multiple>
+              name="car"
+              id="car"
+              required
+              multiple
+            >
               <option value="bmw">BMW</option>
               <option value="audi">Audi</option>
               <option value="lada">Lada</option>
             </select>
           </label>
         </div>
-
         <div>
           <label for="rate">How do you rate our work?</label>
           <input
-          type="range"
-          name="rate"
-          id="rate"
-          value="0"
-          required>
+            type="range"
+            name="rate"
+            id="rate"
+            value="0"
+            required
+          >
         </div>
       </fieldset>
       <fieldset class="field">
@@ -172,9 +178,10 @@
           <label for="recommend">
             Would you recommend us?
             <select
-            name="recommend"
-            id="recommend"
-            required>
+              name="recommend"
+              id="recommend"
+              required
+            >
               <option value="y">yes</option>
               <option value="n">no</option>
             </select>
@@ -185,3 +192,5 @@
     </form>
   </body>
 </html>
+
+
